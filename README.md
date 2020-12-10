@@ -18,7 +18,7 @@ static=Emby, direct, proxy, img-url=https://raw.githubusercontent.com/echoops/em
 https://raw.githubusercontent.com/echoops/emby/main/Filter/Emby.list, tag=Emby, update-interval=86400, enabled=true
 
 [rewrite_remote]
-https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emby.qxrewrite, tag=Emby Premiere, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emby.qxrewrite, tag=Emby Premiere, update-interval=86400, enabled=true
 ```
 
 &nbsp;   
