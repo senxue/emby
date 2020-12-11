@@ -7,7 +7,7 @@
 </h3>
 &nbsp;
 
-## Configuration
+## Configure
 
 * Quantumult X
 ```ini
@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/echoops/emby/main/Filter/Emby.list, tag=Emby, 
 https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emby.qxrewrite, tag=Emby Premiere, update-interval=86400, enabled=true
 ```
 
-* Surge 示例：
+* Surge 示例
 ```ini
 [Proxy]
 🌐Direct = direct
@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emb
 # EMBY策略
 🎞Emby = select,🌐Direct,🌑Proxy
 # 代理策略
-🌑Proxy= select,✈️Airport
+🌑Proxy = select,✈️Airport
 # 机场订阅
 ✈️Airport = select, policy-path=你的机场订阅地址
 
@@ -38,14 +38,14 @@ https://raw.githubusercontent.com/echoops/limitless/main/QuantumultX/Rewrite/emb
 RULE-SET,https://raw.githubusercontent.com/echoops/emby/main/Ruleset/Emby.list,🎞Emby
 ```
 
-* Loon 示例：
+* Loon 示例
 ```ini
 [Remote Proxy]
 Airport = 你的机场订阅地址
 
 [Proxy Group]
 # 代理策略
-PROXY= select,Airport
+PROXY = select,Airport
 # EMBY策略
 Emby = select,DIRECT,PROXY
 
