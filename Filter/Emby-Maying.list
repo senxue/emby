@@ -2,8 +2,7 @@
 # UPDATE: 2020-12-11
 # DOMAIN-SUFFIX: 4
 # TOTAL: 4
-DOMAIN-SUFFIX,emby.wtf,Emby-Maying
-DOMAIN-SUFFIX,plusmedia.site,Emby-Maying
+
 DOMAIN-SUFFIX,mickeycloud.com,Emby-Maying
 DOMAIN-SUFFIX,emby.maying.club,Emby-Maying
 DOMAIN-SUFFIX,subserver.maying.io,Emby-Maying
